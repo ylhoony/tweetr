@@ -18,8 +18,113 @@ body {
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+
+/* Twitter Container */
+.tweets-container {
+  margin: 0 2em 2em;
+  padding: 0em;
+  background-color: #fff;
+}
+
+.tweet {
+  padding: 0em;
+  margin: 2em 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.tweet:hover {
+  padding: 0em;
+  margin: 2em 0;
+  border: 1px solid #244751;
+}
+
+
+.tweet header {
+  background-color: #eee;
+  width: 100%;
+  padding: 0.5em;
+  opacity: 0.3;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.tweet-photo {
+  border-radius: 3px;
+}
+
+.tweet-name {
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.tweet-handle {
+  float: right;
+  font-weight: normal;
+  font-size: 0.5em;
+}
+
+.tweet main {
+  width: 100%;
+  padding: 1.5em 1em;
+  border-bottom: 1px solid #eee;
+  background-color: transparent;
+}
+
+.tweet footer {
+  width: 100%;
+  padding: 0.5em;
+  background-color: transparent;
+}
+
+.fa {
+  float: right;
+  color: #00a087;
+  margin-left: 2%;
+}
+
+
+.tweet-date {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+#compose-btn {
+  width: 110px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #000;
+  margin-top: 10px;
+  float: right;
+  vertical-align: center;
+  display: block;
+
+}
+
+#compose-btn i {
+  float: left;
+  margin-top: 2px;
+  color: #000;
+}
+
+
+
+
