@@ -12,12 +12,9 @@ $(document).ready(function () {
 
     // display icons when hover on .tweet
   $('.tweets-container').on('mouseleave', '.tweet', function() {
-    console.log("hello");
-      // event.preventDefault();
-
-      $(this).find('.fa').remove();
-      $(this).find('header').css('opacity','0.3'); //back to normal opacity
-
+    // event.preventDefault();
+    $(this).find('.fa').remove();
+    $(this).find('header').css('opacity','0.3'); //back to normal opacity
   });
 
   $('#compose-btn').mouseenter( function() {
@@ -27,7 +24,6 @@ $(document).ready(function () {
   $('#compose-btn').mouseleave( function() {
     $(this).css('background-color','#eee');
   });
-
 
   $('#compose-btn').click(function() {
     $('.new-tweet').slideToggle('slow');
